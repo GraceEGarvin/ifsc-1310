@@ -12,6 +12,12 @@ html {
   margin:40px auto;
   max-width:900px
 }
+.img-right{
+  float:right;
+  margin:10px 0 10px 20px;
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
 
 img{
   max-width:100%;
@@ -176,6 +182,62 @@ footer#colophon{
 border-left:5px solid #9902c2;
 padding:5px 10px;
 }
+table{
+  width:100%;
+  border: 1px solid #c0c0c0;
+  border-collapse:collapse;
+}
+caption{
+  font-weight:bold;
+}
+
+th {
+  background:#67479c;
+  color:#ffffff;
+  text-align:left;
+  padding:10px;
+}
+
+td{
+  border:1px solid #c0c0c0;
+  padding:5px;
+}
+tr:nth-child(even){
+  background:#c0c0c0;
+}
+tr:hover{
+  background:#c49bde;
+}
+#additional-elements ol{
+  list-style-type:upper-roman;
+}
+#additional-elements ul ul{
+  list-style-type:square;
+}
+#additional-elements dl{
+  
+}
+#additional-elements dt{
+font-weight:bold;
+font-size:1.1rem;
+
+}
+#additional-elements dd{
+  margin:0;
+}
+dd + dt{
+  margin-top:20px;
+}
+#additional-elements blockquote{
+  background-color:#dcb5f5;
+  padding:40px;
+  border-top:5px solid #c49bde;
+  border-bottom:5px solid #c49bde;
+}
+
+
+
+
 
 
 

@@ -23,11 +23,7 @@ body{
   background-color: rgba(105,131,191,.8);
  }
  
-.container h2 {
-  color:white;
-  text-shadow: 1px 1px #000000;
-  padding:10px 20px 20px 15px;
-}
+
 .container li{
   text-shadow:.5px .5px #000000;
 }
